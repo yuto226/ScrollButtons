@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BC700A6B27841437008EA35A"
-               BuildableName = "ScrollButtontsDemo.app"
-               BlueprintName = "ScrollButtontsDemo"
+               BlueprintIdentifier = "BCCED1BD27840BDA00E7F99E"
+               BuildableName = "ScrollButtons.framework"
+               BlueprintName = "ScrollButtons"
                ReferencedContainer = "container:ScrollButtons.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -40,16 +40,6 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BC700A6B27841437008EA35A"
-            BuildableName = "ScrollButtontsDemo.app"
-            BlueprintName = "ScrollButtontsDemo"
-            ReferencedContainer = "container:ScrollButtons.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -57,16 +47,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BC700A6B27841437008EA35A"
-            BuildableName = "ScrollButtontsDemo.app"
-            BlueprintName = "ScrollButtontsDemo"
+            BlueprintIdentifier = "BCCED1BD27840BDA00E7F99E"
+            BuildableName = "ScrollButtons.framework"
+            BlueprintName = "ScrollButtons"
             ReferencedContainer = "container:ScrollButtons.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
