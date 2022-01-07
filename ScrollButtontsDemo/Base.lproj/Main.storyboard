@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ScrollButtontsDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello Scroll Buttons!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zom-6R-Y1e">
+                                <rect key="frame" x="16" y="80" width="382" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2ix-oz-CHG">
+                                <rect key="frame" x="0.0" y="125" width="414" height="64"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="K2S-Je-5gq"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Ij-gj-Vjk">
+                                <rect key="frame" x="16" y="213" width="382" height="625"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap to any Buttons" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KoL-xG-oLG">
+                                        <rect key="frame" x="95.5" y="298" width="191" height="29"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="KoL-xG-oLG" firstAttribute="centerY" secondItem="5Ij-gj-Vjk" secondAttribute="centerY" id="M8H-WS-uop"/>
+                                    <constraint firstItem="KoL-xG-oLG" firstAttribute="centerX" secondItem="5Ij-gj-Vjk" secondAttribute="centerX" id="xeg-7d-P6g"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="2ix-oz-CHG" firstAttribute="top" secondItem="zom-6R-Y1e" secondAttribute="bottom" constant="16" id="2Zp-iy-5wb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="5Ij-gj-Vjk" secondAttribute="bottom" constant="24" id="6WR-2A-5gF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zom-6R-Y1e" secondAttribute="trailing" constant="16" id="EHA-N2-18B"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2ix-oz-CHG" secondAttribute="trailing" id="LCV-7h-jkO"/>
+                            <constraint firstItem="5Ij-gj-Vjk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="S64-xv-mqD"/>
+                            <constraint firstItem="zom-6R-Y1e" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="36" id="gAA-gN-yzc"/>
+                            <constraint firstItem="5Ij-gj-Vjk" firstAttribute="top" secondItem="2ix-oz-CHG" secondAttribute="bottom" constant="24" id="nqC-El-RAF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5Ij-gj-Vjk" secondAttribute="trailing" constant="16" id="p9Q-Un-qCd"/>
+                            <constraint firstItem="2ix-oz-CHG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="vJg-Ky-shL"/>
+                            <constraint firstItem="zom-6R-Y1e" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="yDR-gw-Qy9"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="buttonTapResultLabel" destination="KoL-xG-oLG" id="lr6-eD-vcP"/>
+                        <outlet property="scrollButtonsDemoArea1" destination="2ix-oz-CHG" id="QFp-j5-ge3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="110"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
